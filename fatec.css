@@ -1,0 +1,56 @@
+body {
+	font-family: arial, serif;
+  }
+  h2 {
+	  font-size: 15px;
+	  font-weight: bold;
+  }
+  .label{
+	  font-weight: bold;
+	  font-size: 17px;
+  
+  }
+  .info{
+	  font-weight: bold;
+	  font-size: 19px;
+  
+  }
+  .outer-container {
+	border: 0px solid black;
+	height: 120px;
+	width: 80px;
+  }
+  
+  .top-section {
+	height: 50%;
+  }
+  
+  .bottom-section {
+	height: 50%;
+	float: right;
+	margin: 8px;
+  }
+  
+  .bottom-aligner {
+	/* display: inline-block; */
+	height: 30%;
+	vertical-align: bottom;
+	
+	width: 3px;
+  }
+  
+  .bottom-content {
+	display: inline-block;
+  }
+  
+  .top-content {
+	padding: 8px;
+  }
+
+  .auth {
+	background-image: url(img/logo1.png);
+	background-repeat: no-repeat;
+	background-size: 50% 80%;
+    margin: 0px auto 0;
+	background-position: center center;
+}
